@@ -101,11 +101,17 @@ Mutable-Immutable-Report.md
 Answer the following questions in your own words:
 
 1. What does mutable mean?
+Mutable means changable.
 2. What does immutable mean?
+Immutable means unchangeable.
 3. What allows MutableStudent objects to change?
+Setter methods.
 4. Why does ImmutableStudent not have setter methods?
+So that any information passed through the constructor of the method cannot be edited.
 5. What is the purpose of final on the fields in ImmutableStudent?
+To ensure that the variables are completely incapable of change.
 6. What is the main difference you observed when testing the two classes?
+One class is much more harsh on mistakes than the other, not being able to change the data of an object after creating it can be harsh if you make a mistake.
 
 Keep your answers short and clear.
 
